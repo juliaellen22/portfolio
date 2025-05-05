@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 80px;
+  background-color: #8F87F1;
+  box-shadow: 0px 3px 10px #E9A5F1;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif ;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+
+.mobile-menu-icon{
+  display: none;
+}
+
+.mobile-menu{
+  display: none;
+}
+@media screen and (max-width: 730px){
+
+  .nav-bar{
+    padding: 1.5rem 4rem;
+  }
+  .nav-item{
+    display: none;
+  }
+  .btns{
+    display: none;
+  }
+  .mobile-menu-icon{
+    display: block;
+  }
+
+  .mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .mobile-menu .nav-item{
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .mobile-menu .btns{
+    display: block;
+    padding: 1rem 2rem;
+  }
+  .open{
+    display: block;
+  }
+
+}
+.titulo-portfolio{
+  display: flex;
+  flex-direction: start;
+  align-items: center;
+  justify-content: right;
+}
+
+.nav-list{
+display: flex;
+align-items: center;
+}
+
+.nav-list ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+}
+.nav-list a{
+  color: black;
+}
+
+.nav-list a:hover{
+  color: #C68EFD;
+}
+.nav-item{
+  margin: 0 15px;
+  display: flex;
+  justify-content: center ;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.tituloUm {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.minhaFoto {
+  height: 250px;
+  width: 250px;
+  border-radius: 20%;
+  object-fit: cover;
+  /*garantir que a imagem não deforme*/
+  border: 6px solid #C68EFD;
+  margin-top: 20px;
+}
+
+/* .btn-translate, .btn-theme {
+  background-color: #E9A5F1;
+  border-radius: 50%;
+  height: 35px;
+  padding: 5px;
+  font-weight: 75;
+  transition: all 0.3s ease;
+  border: none;
+} */
+
+/* .btn-translate:hover , .btn-theme:hover {
+  filter: brightness(1.1);
+  transform: scale(1.05);
+  
+} */
+
+.btn-contato {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+  background-color: #E9A5F1;
+}
+
+.btn-contato:hover {
+  filter: brightness(1.1);
+  transform: scale(1.05);
+}
+
+.btn-baixar {
+  margin-top: 35px;
+  border-radius: 20px;
+  border: solid 3px #C68EFD;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.container {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+}
+
+.descricao {
+  margin-top: 30px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.paragrafoUm{
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 70%;
+}
+.titulo-sobre {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.h2-habilidade{
+  margin-top: 30px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.icons img{
+  background: transparent;
+  mix-blend-mode: multiply;
+  display: inline-block;
+}
+
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  gap: 30px;
+}
+
+.box-skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills i {
+  font-size: 50px;
+  color: red;
+}
