@@ -190,7 +190,7 @@ align-items: center;
   text-align: center;
 }
 
-.paragrafoUm{
+.paragrafo-um{
   text-align: center;
   justify-content: center;
   margin: 0 auto;
@@ -233,4 +233,52 @@ align-items: center;
 .skills i {
   font-size: 50px;
   color: red;
+}
+.skills p{
+  font-size: 15px;
+  font-weight: bold;
+}
+.projeto-box p{
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+.projeto-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  gap: 10px;
+}
+.projetos-box h2{
+  margin-top: 35px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.projeto-descricao{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+.container-contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.container-contato a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
 }
