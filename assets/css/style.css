@@ -225,10 +225,6 @@ align-items: center;
   gap: 30px;
 }
 
-.box-skills {
-  display: flex;
-  flex-direction: column;
-}
 
 .skills i {
   font-size: 50px;
@@ -281,4 +277,11 @@ align-items: center;
   color: black;
   font-weight: bold;
   font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+  align-items:center ;
 }
+
